@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  type="text/css" href="style7.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+  <form action="traitement.php" method="post">
+    <h2> Mon formulaire</h2>
+
+    <label for="nom">Nom </label>
+    <input type="text" placeholder="saisir votre nom" id="nom" name="nom" required>
+
+    <label for="prenom">Prénom </label>
+    <input type="text" placeholder="saisir votre prenom" id="prenom" name="prenom" required>
+
+    <label>Genre </label>
+    <div class="genre-options">
+      <input type="radio" id="masculin" name="genre" value="masculin" required>
+      <label for="masculin" style="display:inline;">Masculin</label>
+
+      <input type="radio" id="feminin" name="genre" value="feminin" required>
+      <label for="feminin" style="display:inline;">Féminin</label>
+    </div>
+
+    <label for="email"> Adresse mail</label>
+    <input type="email" placeholder=" saisir votre email" name="email" required>
+    <label for="password">Mot de passe </label>
+    <input type="password" placeholder=" saisir un mot de passe" id="password" name="password" required>
+
+    <div class="buttons">
+      <button type="submit">Valider</button>
+      <button type="reset">Annuler</button>
+    </div>
+  </form>
+</body>
+</html> 

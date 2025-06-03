@@ -1,0 +1,21 @@
+.personn{
+    display: flex;
+    justify-content: center;
+    
+}
+.person{
+    margin: 20;
+    text-align: center;
+}
+.person img{
+    width: 200px;
+    height: 200px;
+    border-radius: 75% solid;
+    object-fit: cover;
+}
+.person p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

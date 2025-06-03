@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.slider{
+    width: 100%;
+    height: 80vh;
+    aspect-ratio: 16/9;
+    background-color: black;
+}
+.slider-background{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.slider-container{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    right: 30%;
+    transform: translate(-50, -50);
+    padding: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h1{
+    color: rgb(15, 10, 10);
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.slider-container p{
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+p{
+    color: rgb(23, 23, 45);
+    font-size: 10px;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.moi{
+    padding: 70px;
+    margin-top: 30px;
+}
